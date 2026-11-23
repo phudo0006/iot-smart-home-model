@@ -1,0 +1,34 @@
+# Arduino / PlatformIO build outputs
+build/
+.pio/
+*.elf
+*.hex
+*.bin
+*.map
+
+# Arduino IDE / editor settings
+.vscode/
+.idea/
+*.workspace
+
+# Local credentials and private configuration
+config.properties
+configSaved/
+secrets.h
+secrets.cpp
+.env
+
+# Large local demo videos (hosted externally on Google Drive)
+videos/*.mp4
+videos/*.mov
+videos/*.mkv
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary and backup files
+*.tmp
+*.bak
+*~
